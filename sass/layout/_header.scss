@@ -1,0 +1,46 @@
+.navbar-fixed {
+     grid-column: 1 / -1;
+     grid-row: 1 / 2;
+}
+
+.nav {
+     background-color: rgba(0,0,0,.30) !important;
+}
+
+#logo {
+     height: 3.25rem;
+     margin-top: .25rem;
+}
+
+
+
+.hero {
+     grid-column: 1 / -1;
+     grid-row: 1 / 2;
+
+     &__caption {
+          margin-top: 4rem;
+     }
+
+     &__heading {
+
+          &--main {
+               text-shadow: 0 .5rem 3rem #000
+          }
+
+          &--sub {
+               text-shadow: 0 .5rem 3rem #000
+          }
+     }
+
+     &__cta {
+          margin-top: 2rem;
+     }
+}
+
+.side-nav {
+     width: 9rem !important;
+     padding-top: 5rem !important;
+}
+
+

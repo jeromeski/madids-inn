@@ -1,0 +1,15 @@
+.section-rooms {
+     grid-column: 1 / -1;
+     grid-row: 4 / 5;
+     margin: 3rem 0;
+
+     &__group {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+          grid-gap: 2rem;
+     }
+
+     &__inner-group {
+
+     }
+}

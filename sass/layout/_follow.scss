@@ -1,0 +1,15 @@
+.section-follow {
+     grid-column: 1 / -1;
+     grid-row: 5 / 6;
+     // margin: 3rem 0;
+
+     background-image: linear-gradient(to right bottom,  rgba(#2196F3, .75), rgba(#2196F3, .75)), url(../img/1.png) !important;
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+     background-attachment: fixed !important;
+     background-position: center !important;
+
+     &__icon {
+          padding: .5rem 1rem;
+     }
+}

@@ -1,0 +1,13 @@
+.section-cards {
+     grid-column: 1 / -1;
+     grid-row: 3 / 4;
+
+     padding: 5rem 0;
+
+     &__group {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+          grid-gap: 5rem;
+
+     }
+}

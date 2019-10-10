@@ -1,0 +1,19 @@
+.footer {
+     grid-column: 1 / -1;
+     grid-row: 8 / 9;
+     margin-top: 3rem;
+
+     &__container {
+          margin-top: 1rem;
+     }
+
+     &__logo {
+          height: 4rem;
+          margin: 0 auto;
+          display: block;
+     }
+
+     &__copyright {
+          text-align: center;
+     }
+}

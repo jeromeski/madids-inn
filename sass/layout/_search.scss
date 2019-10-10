@@ -1,0 +1,25 @@
+.section-search {
+     grid-column: 1 / -1;
+     grid-row: 2 / 3;
+
+      background-image: linear-gradient(to right,
+                    rgba(#3a82c3, .50), 
+                    rgba(#03b4e4, .9), 
+                    rgba(#3a82c3, .50)) !important;
+
+     &__input {
+          padding: 3px !important;
+          font-size: 1.8rem !important;
+          width: 75% !important;
+          border: #f4f4f4 3px solid !important;
+          text-indent: 1.5rem;
+
+     }
+
+     .autocomplete-content {
+          position: absolute;
+          width: 100%;
+          text-align: center;
+     }
+
+}
